@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://perroninstitute.org/wp-content/uploads/2015/08/the%20Perron%20Institute-banner-background-white.jpg');
+    margin-left: 10px;
+}
+
+.error{
+    color: red;
+}
+
+#Title, #Avatar, #Author, #CategoryID, #Status, a{
+    color: black;
+}
+
+th, td{
+    font-size: 15px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 25px; /* Place the button at the bottom of the page */
+    right: 35px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:rgb(172, 104, 104); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 100%; /* Rounded corners */
+    font-size: 10px; /* Increase font size */
+}
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+#shadowModal, nav {
+    box-shadow: 10px 10px 5px grey;
+}
+img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* Tạo hiệu ứng button */
+#buttonCreate:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#buttonCreate{
+    position:relative;
+    background-color:lightblue;
+    border:none;
+    padding:1.2em 1.4em;
+    overflow:hidden;
+    font-size:19px;
+    transition:0.4s;
+}
+#buttonCreate:after{
+    content:"";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    left:0;
+    bottom:0;
+    opacity:0;
+    transition:all 0.8s;
+}
+#buttonCreate:active:after{
+    padding:0;
+    opacity:1;
+    transition:0s;
+}
+#buttonCreate{
+    background: rgb(255, 189, 66);
+    padding:1.2em 1.4em;
+    font-size:20px;
+    margin:5px;
+    border:none;
+    border-radius:10px;
+    box-shadow:0 9px gray;
+    cursor:pointer;
+    outline:none;
+}
+#buttonCreate:active{
+    transform:translate(0,4px);
+    -webkit-transform:translate(0,4px);
+    box-shadow:0 4px gray;  
+}

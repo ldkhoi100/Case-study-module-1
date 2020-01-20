@@ -1,0 +1,268 @@
+{
+  "Book": [
+    {
+      "IDBook": "001",
+      "Title": "<a target=\"_blank\" href=\"http://127.0.0.1:5500/BookLink/Cho-Khe-Nhan-Vang.html\" style=\"text-decoration: none;\">Cho Khế Nhận Vàng</a>",
+      "Avatar": "images/cho-khe-nhan-vang.jpg",
+      "Author": "Adam Grant",
+      "Category": "1",
+      "Status": "1",
+      "Borrower": "Lê Đăng Khôi",
+      "BorrowDate": "2020-01-18",
+      "PayDay": "2020-01-31",
+      "id": 1,
+      "CategoryClass": {
+        "id": "1",
+        "Name": "Kinh Tế - Quản Lý"
+      },
+      "StatusCheck": {
+        "id": "1",
+        "Name": "Đang mượn"
+      }
+    },
+    {
+      "IDBook": "002",
+      "Title": "<a style=\"text-decoration: none;\" href=\"http://127.0.0.1:5500/BookLink/Dam-Uoc-Mo.html\" target=\"_blank\">Dám Ước Mơ</a>",
+      "Avatar": "https://sachvui.com/cover/2019/dam-uoc-mo.jpg",
+      "Author": "Florence Littauer",
+      "Category": "2",
+      "Status": "2",
+      "Borrower": "",
+      "BorrowDate": "",
+      "PayDay": "",
+      "id": 2,
+      "CategoryClass": {
+        "id": "2",
+        "Name": "Tâm Lý - Kỹ Năng Sống"
+      },
+      "StatusCheck": {
+        "id": "2",
+        "Name": "Rảnh rỗi"
+      }
+    },
+    {
+      "IDBook": "003",
+      "Title": "<a style=\"text-decoration: none;\" href=\"http://127.0.0.1:5500/BookLink/Marketing-Duong-Dai.html\" target=\"_blank\">Marketing Đương Đại</a>",
+      "Avatar": "https://sachvui.com/cover/2015/marketing-duong-dai.jpg",
+      "Author": "Ngô Bình - Nguyễn Khánh Trung",
+      "Category": "3",
+      "Status": "1",
+      "Borrower": "Lê Văn Sáng",
+      "BorrowDate": "2020-01-19",
+      "PayDay": "2020-01-26",
+      "id": 3,
+      "CategoryClass": {
+        "id": "3",
+        "Name": "Marketing - Bán hàng"
+      },
+      "StatusCheck": {
+        "id": "1",
+        "Name": "Đang mượn"
+      }
+    },
+    {
+      "IDBook": "004",
+      "Title": "<a style=\"text-decoration: none;\" href=\"http://127.0.0.1:5500/BookLink/Dich-Can-Kinh.html\" target=\"_blank\">Dịch Cân Kinh</a>",
+      "Avatar": "https://sachvui.com/cover/2018/dich-can-kinh-manh-linh.jpg",
+      "Author": "Mạnh Linh",
+      "Category": "4",
+      "Status": "1",
+      "Borrower": "Vinh Hiển",
+      "BorrowDate": "2020-01-17",
+      "PayDay": "2020-02-05",
+      "id": 4,
+      "CategoryClass": {
+        "id": "4",
+        "Name": "Y Học - Sức Khỏe"
+      },
+      "StatusCheck": {
+        "id": "1",
+        "Name": "Đang mượn"
+      }
+    },
+    {
+      "IDBook": "005",
+      "Title": "<a style=\"text-decoration: none;\" href=\"http://127.0.0.1:5500/BookLink/Phong-Tro-Ma.html\" target=\"_blank\">Nhật ký phòng trọ ma</a>",
+      "Avatar": "https://sachvui.com/cover/2019/nhat-ky-phong-tro-ma.jpg",
+      "Author": "Voz",
+      "Category": "5",
+      "Status": "2",
+      "Borrower": "",
+      "BorrowDate": "",
+      "PayDay": "",
+      "id": 5,
+      "CategoryClass": {
+        "id": "5",
+        "Name": "Truyện Ma - Kinh Dị"
+      },
+      "StatusCheck": {
+        "id": "2",
+        "Name": "Rảnh rỗi"
+      }
+    },
+    {
+      "IDBook": "006",
+      "Title": "<a style=\"text-decoration: none;\" href = \"http://127.0.0.1:5500/BookLink/Tuoi-Tho-Du-Doi.html\" target=\"_blank\">Tuổi thơ dữ dội</a>",
+      "Avatar": "https://sachvui.com/cover/2019/tuoi-tho-du-doi.jpg",
+      "Author": "Phùng Quán",
+      "Category": "6",
+      "Status": "1",
+      "Borrower": "Nguyễn Quang Tiến",
+      "BorrowDate": "2020-01-17",
+      "PayDay": "2020-01-31",
+      "id": 6,
+      "CategoryClass": {
+        "id": "6",
+        "Name": "Văn Học Việt Nam"
+      },
+      "StatusCheck": {
+        "id": "1",
+        "Name": "Đang mượn"
+      }
+    },
+    {
+      "IDBook": "007",
+      "Title": "<a style=\"text-decoration: none;\" href=\"http://127.0.0.1:5500/BookLink/Giao-Trinh-Thuat-Toan.html\" target=\"_blank\">Giáo trình thuật toán</a>",
+      "Avatar": "https://sachvui.com/cover/2018/giao-trinh-thuat-toan-introduction-to-algorithms-.jpg",
+      "Author": "Thomas H. Cormen - Charles E. Leiserson",
+      "Category": "7",
+      "Status": "2",
+      "Borrower": "",
+      "BorrowDate": "",
+      "PayDay": "",
+      "id": 7,
+      "CategoryClass": {
+        "id": "7",
+        "Name": "Công Nghệ Thông Tin"
+      },
+      "StatusCheck": {
+        "id": "2",
+        "Name": "Rảnh rỗi"
+      }
+    },
+    {
+      "IDBook": "008",
+      "Title": "<a style=\"text-decoration: none;\" style=\"text-decoration: none;\" href=\"http://127.0.0.1:5500/BookLink/Cong-Nghe-BlockChain.html\" target=\"_blank\">Công nghệ Blockchain</a>",
+      "Avatar": "https://sachvui.com/cover/2018/cong-nghe-blockchain.jpg",
+      "Author": "Nhiều tác giả",
+      "Category": "7",
+      "Status": "1",
+      "Borrower": "Lê Văn Tám",
+      "BorrowDate": "2020-01-12",
+      "PayDay": "2020-02-28",
+      "id": 8,
+      "CategoryClass": {
+        "id": "7",
+        "Name": "Công Nghệ Thông Tin"
+      },
+      "StatusCheck": {
+        "id": "1",
+        "Name": "Đang mượn"
+      }
+    },
+    {
+      "IDBook": "009",
+      "Title": "<a style=\"text-decoration: none;\" href=\"http://127.0.0.1:5500/BookLink/Quan-Tri-Du-An.html\" target=\"_blank\">Quản trị dự án, những nguyên tắc căn bản</a>",
+      "Avatar": "https://sachvui.com/cover/2017/quan-tri-du-an-nhung-nguyen-tac-can-ban.jpg",
+      "Author": "Joseph Heagney",
+      "Category": "1",
+      "Status": "2",
+      "Borrower": "",
+      "BorrowDate": "",
+      "PayDay": "",
+      "id": 9,
+      "CategoryClass": {
+        "id": "1",
+        "Name": "Kinh Tế - Quản Lý"
+      },
+      "StatusCheck": {
+        "id": "2",
+        "Name": "Rảnh rỗi"
+      }
+    },
+    {
+      "IDBook": "010",
+      "Title": "<a target=\"_blank\" href=\"http://127.0.0.1:5500/BookLink/Day-Tre-Tap-Boi.html\" style=\"text-decoration: none;\">Dạy Trẻ Tập Bơi</a>",
+      "Avatar": "https://sachvui.com/cover/2016/day-tre-tap-boi.jpg",
+      "Author": "Alis Mark",
+      "Category": "8",
+      "Status": "2",
+      "Borrower": "",
+      "BorrowDate": "",
+      "PayDay": "",
+      "id": 10,
+      "CategoryClass": {
+        "id": "8",
+        "Name": "Thể Thao - Nghệ Thuật"
+      },
+      "StatusCheck": {
+        "id": "2",
+        "Name": "Rảnh rỗi"
+      }
+    },
+    {
+      "IDBook": "011",
+      "Title": "<a target=\"_blank\" href=\"http://127.0.0.1:5500/BookLink/Vue.js_2.html\" style=\"text-decoration: none;\">Learning Vue.js 2</a>",
+      "Avatar": "https://sachvui.com/cover/2018/learning-vue-js-2.jpg",
+      "Author": "Olga Filipova",
+      "Category": "7",
+      "Status": "2",
+      "Borrower": "",
+      "BorrowDate": "",
+      "PayDay": "",
+      "id": 12,
+      "CategoryClass": {
+        "id": "7",
+        "Name": "Công Nghệ Thông Tin"
+      },
+      "StatusCheck": {
+        "id": "2",
+        "Name": "Rảnh rỗi"
+      }
+    }
+  ],
+  "Classes": [
+    {
+      "id": "1",
+      "Name": "Kinh Tế - Quản Lý"
+    },
+    {
+      "id": "2",
+      "Name": "Tâm Lý - Kỹ Năng Sống"
+    },
+    {
+      "id": "3",
+      "Name": "Marketing - Bán hàng"
+    },
+    {
+      "id": "4",
+      "Name": "Y Học - Sức Khỏe"
+    },
+    {
+      "id": "5",
+      "Name": "Truyện Ma - Kinh Dị"
+    },
+    {
+      "id": "6",
+      "Name": "Văn Học Việt Nam"
+    },
+    {
+      "id": "7",
+      "Name": "Công Nghệ Thông Tin"
+    },
+    {
+      "id": "8",
+      "Name": "Thể Thao - Nghệ Thuật"
+    }
+  ],
+  "StatusCheck": [
+    {
+      "id": "1",
+      "Name": "Đang mượn"
+    },
+    {
+      "id": "2",
+      "Name": "Rảnh rỗi"
+    }
+  ]
+}

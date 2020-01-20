@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Tạo ứng dụng Date Picker với jQuery Plugin dateSelector.js</title>
+        <link rel="icon" href="http://www.thuthuatweb.net/wp-content/themes/HostingSite/favicon.ico" type="image/x-ico"/>
+
+		<!-- CSS Stylesheet -->
+		<link rel="stylesheet" href="res/css/dateselector.min.css" type="text/css" />
+        <link rel="stylesheet" href="demo.css" type="text/css" />
+		<!-- Scripts -->
+		<script src="jquery-1.11.2.min.js"></script>
+		<script src="libs/dateselector.min.js"></script>
+		<!-- Dateselector script init -->
+		<script>
+			$(document).ready(function() {
+				$('#test').dateSelector();
+				$('#test2').dateSelector();
+			});
+		</script> 
+
+		<style>
+			#demo {
+				margin: 150px auto;
+				padding: 2em;
+				width: 70%;
+			}
+		</style>
+	</head>
+
+<body>	
+
+<div id="demo">
+ <h1>jQuery dateSelector.js Demo Page</h1>
+	<p>Start Date</p>
+	<input type="text" id="test" />
+
+	<p>End Date</p>
+	<input type="text" id="test2" />
+</div>
+    
+<div class="footer-bar">
+    <span class="article-wrapper">
+        <span class="article-label">Xem Bài Viết: </span>
+        <span class="article-link"><a href="https://www.thuthuatweb.net/javacript/tao-ung-dung-date-picker-voi-jquery-plugin-dateselector-js.html">Tạo ứng dụng Date Picker với jQuery Plugin dateSelector.js</a></span>
+    </span>
+    
+</div>
+       
+</body>
+
+</html>
